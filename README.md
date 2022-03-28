@@ -1,2 +1,4 @@
 # grab_file_type
-抓取文件类型
+
+### What we need to do is:
+Traverse current code direction, get all files and archieve their file type by `file -b` command, finally return the deduplicated file type list.
